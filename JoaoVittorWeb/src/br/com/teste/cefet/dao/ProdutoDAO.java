@@ -62,7 +62,7 @@ public class ProdutoDAO {
                     produto.setIdProduto(rs.getInt("idproduto"));
                     produto.setDescricao(rs.getString("descricao"));
                     produto.setQuantidade(rs.getInt("quantidade"));
-                    produto.setFornecedor(rs.getString("fornecedro"));
+                    produto.setFornecedor(rs.getString("fornecedor"));
                     produto.setPreco(rs.getDouble("quantidade"));
                     produto.setVendasOnline(rs.getString("vendasonline"));
                 }
